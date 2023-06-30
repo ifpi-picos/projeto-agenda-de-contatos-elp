@@ -13,12 +13,12 @@ body {
   form {
     margin-bottom: 20px;
   }
-  
+  /*tabela*/
   table {
     width: 100%;
     border-collapse: collapse;
   }
-  
+  /*linha e nomes do cabeçalho*/
   th, td {
     padding: 10px;
     color: #77a6f8;
