@@ -55,10 +55,15 @@ body {
   }
   label{
     color:#fffffe;
-    text-align: center;
-  }
+    }
   input{
     border-color: #7f5af0;
     color: #7f5af0;
-    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;   
   }
+form{
+  width: 50%;
+  margin-left: auto; 
+  margin-right: auto; 
+}
