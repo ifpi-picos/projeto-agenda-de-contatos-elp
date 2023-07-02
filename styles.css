@@ -55,12 +55,13 @@ body {
   }
   label{
     color:#fffffe;
+
     }
   input{
     border-color: #7f5af0;
     color: #7f5af0;
-    margin-left: auto; 
-    margin-right: auto;   
+    
+
   }
 form{
   width: 50%;
