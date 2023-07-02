@@ -5,7 +5,7 @@ var contacts = [];
 function addContact() {
   var name = document.getElementById('name').value;
   var phone = document.getElementById('phone').value;
-
+  
   contacts.push({ name: name, phone: phone });
   renderContacts();
   document.getElementById('name').value = '';
@@ -17,9 +17,9 @@ function renderContacts() {
   var table = document.getElementById('contactTable');
   table.innerHTML = `
     <tr>
-      <th>Nome</th>
-      <th>Telefone</th>
-      <th>Ações</th>
+      <th>NOME</th>
+      <th>TELEFONE</th>
+      <th>AÇÕES</th>
     </tr>
   `;
 
@@ -34,7 +34,7 @@ function renderContacts() {
     nameCell.innerHTML = contact.name;
     phoneCell.innerHTML = contact.phone;
     actionsCell.innerHTML = `
-      <button onclick="editContact(${index})">Editar</button>
+      <button onclick="editContact(${index})"; color:" red"; >Editar</button>
       <button onclick="deleteContact(${index})">Excluir</button>
     `;
   });
@@ -45,9 +45,10 @@ function editContact(index) {
   var newName = prompt('Digite o novo nome:');
   var newPhone = prompt('Digite o novo telefone:');
 
-  if (newName && newPhone) {
+  if (newName && newPhone && newImag) {
     contacts[index].name = newName;
     contacts[index].phone = newPhone;
+
     renderContacts();
   }
 }

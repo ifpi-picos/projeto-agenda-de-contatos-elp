@@ -15,7 +15,9 @@ body {
   }
   /*tabela*/
   table {
-    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
     border-collapse: collapse;
   }
   /*linha e nomes do cabeçalho*/
@@ -40,7 +42,7 @@ body {
   }
   
   .btn-add {
-    background-color: #ff8906;
+    background-color: #7f5af0;
     color: #f9f9f9;
     border: 0;
     border-radius: 20px;
@@ -49,11 +51,14 @@ body {
   
   .btn-add:hover {
     background-color: #f9f9f9;
-    color: #ff8906;
+    color: #7f5af0;
   }
   label{
-    color:#ff8906;
+    color:#fffffe;
+    text-align: center;
   }
   input{
-    border-color: #ff8906;
+    border-color: #7f5af0;
+    color: #7f5af0;
+    text-align: center;
   }
