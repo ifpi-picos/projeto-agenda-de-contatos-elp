@@ -45,7 +45,7 @@ function editContact(index) {
   var newName = prompt('Digite o novo nome:');
   var newPhone = prompt('Digite o novo telefone:');
 
-  if (newName && newPhone && newImag) {
+  if (newName && newPhone ) {
     contacts[index].name = newName;
     contacts[index].phone = newPhone;
 
