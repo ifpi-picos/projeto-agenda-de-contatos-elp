@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color:#0f0e17;
+    background-color:#eff0f3;
   }
   /*titulo da pagina (cor,posição,fonte)*/
   h1 {
     text-align: center;
-    color: #fffffe;
+    color: #0d0d0d;
     font-family: Arial, Helvetica, sans-serif;
   }
   /*formulario */
@@ -42,7 +42,7 @@ body {
   }
   
   .btn-add {
-    background-color: #7f5af0;
+    background-color: #ff8e3c;
     color: #f9f9f9;
     border: 0;
     border-radius: 20px;
@@ -51,20 +51,21 @@ body {
   
   .btn-add:hover {
     background-color: #f9f9f9;
-    color: #7f5af0;
+    color: #ff8e3c;
   }
   label{
     color:#fffffe;
 
     }
   input{
-    border-color: #7f5af0;
-    color: #7f5af0;
+    border-color: #4fc4cf;
+    color: #4fc4cf;
     
 
   }
 form{
   width: 50%;
   margin-left: auto; 
-  margin-right: auto; 
+  margin-right: auto;
+  
 }
