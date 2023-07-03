@@ -68,4 +68,3 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 // Renderiza os contatos iniciais 
 renderContacts();
 
-// Test commit

@@ -1,3 +1,4 @@
+/*corpo*/
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -26,12 +27,15 @@ body {
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
+  /*cabeçalho */
   th{
   color:#0d1432;
   }
+  /*linha=row*/
   tr{
   color:#0d1432;
   }
+  /*botao caracteristicas*/
   .btn {
     padding: 10px 20px;
     border: none;
@@ -40,7 +44,7 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
   }
-  
+  /*efeito do botao*/
   .btn-add {
     background-color: #0d1432;
     color:#cfd5e1;
@@ -48,24 +52,24 @@ body {
     border-radius: 20px;
     font-family: Arial 5;
   }
-  
+  /*botão sem efeitp*/
   .btn-add:hover {
     background-color:#cfd5e1;
     color: #0d1432;
   }
+  /*etiquetas*/
   label{
-    color:#0d1432;
-
-    }
+      color:#0d1432;
+      }
+  /*entrada de dados*/
   input{
-    border-color: #fffffe;
-    color:#0d1432 ;
-    
-
+      border-color: #fffffe;
+      color:#0d1432 ;
   }
-form{
-  width: 50%;
-  margin-left: auto; 
-  margin-right: auto;
-  
-}
+  /*formulario*/
+  form{
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+    
+  }
