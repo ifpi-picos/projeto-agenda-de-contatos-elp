@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color:#eff0f3;
+    background-color: #e0e2e9;
   }
   /*titulo da pagina (cor,posição,fonte)*/
   h1 {
     text-align: center;
-    color: #0d0d0d;
+    color: #0d1432;
     font-family: Arial, Helvetica, sans-serif;
   }
   /*formulario */
@@ -27,10 +27,10 @@ body {
     border-bottom: 1px solid #ddd;
   }
   th{
-  color:#fffffe;
+  color:#0d1432;
   }
   tr{
-  color:#a7a9be;
+  color:#0d1432;
   }
   .btn {
     padding: 10px 20px;
@@ -42,24 +42,24 @@ body {
   }
   
   .btn-add {
-    background-color: #ff8e3c;
-    color: #f9f9f9;
+    background-color: #0d1432;
+    color:#cfd5e1;
     border: 0;
     border-radius: 20px;
     font-family: Arial 5;
   }
   
   .btn-add:hover {
-    background-color: #f9f9f9;
-    color: #ff8e3c;
+    background-color:#cfd5e1;
+    color: #0d1432;
   }
   label{
-    color:#fffffe;
+    color:#0d1432;
 
     }
   input{
-    border-color: #4fc4cf;
-    color: #4fc4cf;
+    border-color: #fffffe;
+    color:#0d1432 ;
     
 
   }
