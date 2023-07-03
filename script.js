@@ -34,7 +34,7 @@ function renderContacts() {
     nameCell.innerHTML = contact.name;
     phoneCell.innerHTML = contact.phone;
     actionsCell.innerHTML = `
-      <button onclick="editContact(${index})"; color:" red"; >Editar</button>
+      <button onclick="editContact(${index})" >Editar</button>
       <button onclick="deleteContact(${index})">Excluir</button>
     `;
   });
